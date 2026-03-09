@@ -139,7 +139,7 @@ type AccountPosition struct {
 	AverageDailyMarketClosePrice  decimal.Decimal `json:"average-daily-market-close-price"`
 	Mark                          decimal.Decimal `json:"mark"`
 	MarkPrice                     decimal.Decimal `json:"mark-price"`
-	Multiplier                    int             `json:"multiplier"`
+	Multiplier                    decimal.Decimal `json:"multiplier"`
 	CostEffect                    PriceEffect     `json:"cost-effect"`
 	IsSuppressed                  bool            `json:"is-suppressed"`
 	IsFrozen                      bool            `json:"is-frozen"`
